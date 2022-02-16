@@ -1,15 +1,13 @@
-<!DOCTYPE html>
- <html>
+<!doctype html>
+<html>
 <head>
 <meta charset="UTF-8" />	
-<title>Lankey Dudes</title>
-<link rel="icon" href="" type="image/x-icon"/>
-  
+<title> Mahesh</title> 
 <link href="index.css" rel="stylesheet" type="text/css">
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
 
-</head><body>
-
+<body>
+	
 <div class="Lankey_dudes">
 	<div class="top_nav">
 		<div class="top_nav_left">
@@ -18,24 +16,69 @@
 		<div class="top_nav_right">
 		<div class="top_nav_navigartion">
 			<ul>
-  				<li><a class="active" href="#home">Home</a></li>
+  				<li><a href="#home">Home</a></li>
   				<li><a href="#news">Reliable NFT</a></li>
   				<li><a href="#contact">Lankey Dudes</a></li>
   				<li><a href="#about">Abouts</a></li>
 			</ul>
 		</div>
         <div class="top_nav_logo">
-			<a href=""><img src="assets/images/twitter.png"></a>
-			<a href=""><img src="assets/images/instagram.png"></a>
-			<a href=""><img src="assets/images/discord.png"></a>
+			<a href=""><img src="assets/images/twitter.png" alt="image"></a>
+			<a href=""><img src="assets/images/instagram.png" alt="image"></a>
+			<a href=""><img src="assets/images/discord.png" alt="image"></a>
 		</div>
 		</div>
 	</div>
 	
 	
 	<div class="body_image">
-		<img src="assets/images/lankey/11.png">
+
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+  					<img src="assets/images/lankey/11.png" alt="image">
+			</div>
+
+			<div class="mySlides fade">
+  						<img src="assets/images/lankey/12.png" alt="image">
+			</div>
+			<div class="mySlides fade">
+  					<img src="assets/images/lankey/13.png" alt="image">
+			</div>
+
+		</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
 	</div>
+	
+	
+	
 	<div class="lankey_text">
 	<div class="dudes_text">
 		<p>
@@ -46,7 +89,7 @@
 	</div>
 	</div>
 	<div class="third_box">
-		<img src="assets/images/lankey/2.png">
+		<img src="assets/images/lankey/2.png" alt="image">
 	</div>
 	<div class="lankey_text">
 	<div class="dudes_text">
@@ -68,26 +111,26 @@
 	</div>
 	</div>
 	<div class="give_way_images">
-		<img src="assets/images/lankey_images/1.png">
-		<img src="assets/images/lankey_images/2.png">
-		<img src="assets/images/lankey_images/3.png">
-		<img src="assets/images/lankey_images/4.png">
-		<img src="assets/images/lankey_images/5.png">
-		<img src="assets/images/lankey_images/6.png">
-		<img src="assets/images/lankey_images/7.png">
-		<img src="assets/images/lankey_images/8.png">
-		<img src="assets/images/lankey_images/9.png">
-		<img src="assets/images/lankey_images/10.png">
-		<img src="assets/images/lankey_images/11.png">
-		<img src="assets/images/lankey_images/12.png">
-		<img src="assets/images/lankey_images/13.png">
-		<img src="assets/images/lankey_images/14.png">
-		<img src="assets/images/lankey_images/15.png">
-		<img src="assets/images/lankey_images/16.png">
-		<img src="assets/images/lankey_images/17.png">
-		<img src="assets/images/lankey_images/18.png">
-		<img src="assets/images/lankey_images/19.png">
-		<img src="assets/images/lankey_images/20.png">
+		<img src="assets/images/lankey_images/1.png" alt="image">
+		<img src="assets/images/lankey_images/2.png" alt="image">
+		<img src="assets/images/lankey_images/3.png" alt="image">
+		<img src="assets/images/lankey_images/4.png" alt="image">
+		<img src="assets/images/lankey_images/5.png" alt="image">
+		<img src="assets/images/lankey_images/6.png" alt="image">
+		<img src="assets/images/lankey_images/7.png" alt="image">
+		<img src="assets/images/lankey_images/8.png" alt="image">
+		<img src="assets/images/lankey_images/9.png" alt="image">
+		<img src="assets/images/lankey_images/10.png" alt="image">
+		<img src="assets/images/lankey_images/11.png" alt="image">
+		<img src="assets/images/lankey_images/12.png" alt="image">
+		<img src="assets/images/lankey_images/13.png" alt="image">
+		<img src="assets/images/lankey_images/14.png" alt="image">
+		<img src="assets/images/lankey_images/15.png" alt="image">
+		<img src="assets/images/lankey_images/16.png" alt="image">
+		<img src="assets/images/lankey_images/17.png" alt="image">
+		<img src="assets/images/lankey_images/18.png" alt="image">
+		<img src="assets/images/lankey_images/19.png" alt="image">
+		<img src="assets/images/lankey_images/20.png" alt="image">
 	</div>
 	
 	
@@ -124,12 +167,10 @@
 			</ul>
 		</div>
         <div class="footer_nav_logo">
-			<a href=""><img src="assets/images/twitter.png"></a>
-			<a href=""><img src="assets/images/instagram.png"></a>
-			<a href=""><img src="assets/images/discord.png"></a>
+			<a href=""><img src="assets/images/twitter.png" alt="image"></a>
+			<a href=""><img src="assets/images/instagram.png" alt="image"></a>
+			<a href=""><img src="assets/images/discord.png" alt="image"></a>
 		</div>
-</div>
+</div>	
 </body>
-</html> 
-
-	
+</html>
